@@ -9,7 +9,7 @@ Created-By: 1.7.0_65 (Oracle Corporation)
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.github.rosjava.rosjava_catkin_package_a.my_pu
  b_sub_tutorial
-Import-Package: org.apache.commons.logging;version="[1.1,2)",org.ros.c
- oncurrent,org.ros.message,org.ros.namespace,org.ros.node,org.ros.node
- .topic,std_msgs;version="[0.5,1)"
+Import-Package: geometry_msgs;version="[1.11,2)",org.apache.commons.lo
+ gging;version="[1.1,2)",org.ros.concurrent,org.ros.message,org.ros.na
+ mespace,org.ros.node,org.ros.node.topic,std_msgs;version="[0.5,1)"
 

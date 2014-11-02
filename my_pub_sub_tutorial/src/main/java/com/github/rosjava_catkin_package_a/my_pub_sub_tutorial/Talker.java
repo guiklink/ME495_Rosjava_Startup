@@ -36,8 +36,8 @@ public class Talker extends AbstractNodeMain {
 
   @Override
   public void onStart(final ConnectedNode connectedNode) {
-    final Publisher<std_msgs.String> publisher =
-        connectedNode.newPublisher("chatter", std_msgs.String._TYPE);
+    final Publisher<geometry_msgs.Twist> publisher =
+        connectedNode.newPublisher("/turtle1/cmd_vel", geometry_msgs.Twist._TYPE);
     // This CancellableLoop will be canceled automatically when the node shuts
     // down.
     connectedNode.executeCancellableLoop(new CancellableLoop() {
@@ -50,9 +50,9 @@ public class Talker extends AbstractNodeMain {
 
       @Override
       protected void loop() throws InterruptedException {
-        std_msgs.String str = publisher.newMessage();
-        str.setData("Hello world! " + sequenceNumber);
-        publisher.publish(str);
+        geometry_msgs.Twist twist = publisher.newMessage();
+        twist.getLinear().setX(2);
+        publisher.publish(twist);
         sequenceNumber++;
         Thread.sleep(1000);
       }
