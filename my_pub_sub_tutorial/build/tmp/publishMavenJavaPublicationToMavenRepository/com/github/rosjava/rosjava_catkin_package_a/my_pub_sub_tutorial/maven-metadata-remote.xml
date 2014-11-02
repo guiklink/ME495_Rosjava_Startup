@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.rosjava.rosjava_catkin_package_a</groupId>
+  <artifactId>my_pub_sub_tutorial</artifactId>
+  <version>0.1.0</version>
+  <versioning>
+    <versions>
+      <version>0.1.0</version>
+    </versions>
+    <lastUpdated>20141102204409</lastUpdated>
+  </versioning>
+</metadata>

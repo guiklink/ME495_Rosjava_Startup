@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Export-Package: com.github.rosjava_catkin_package_a.my_pub_sub_tutoria
+ l;version="0.1.0";uses:="org.ros.namespace,org.ros.node"
+Bundle-Version: 0.1.0
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: my_pub_sub_tutorial
+Bnd-LastModified: 1414951547000
+Created-By: 1.7.0_65 (Oracle Corporation)
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.github.rosjava.rosjava_catkin_package_a.my_pu
+ b_sub_tutorial
+Import-Package: org.apache.commons.logging;version="[1.1,2)",org.ros.c
+ oncurrent,org.ros.message,org.ros.namespace,org.ros.node,org.ros.node
+ .topic,std_msgs;version="[0.5,1)"
+
