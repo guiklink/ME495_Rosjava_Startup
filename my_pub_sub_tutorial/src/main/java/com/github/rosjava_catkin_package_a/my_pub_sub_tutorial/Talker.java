@@ -51,9 +51,17 @@ public class Talker extends AbstractNodeMain {
       @Override
       protected void loop() throws InterruptedException {
         geometry_msgs.Twist twist = publisher.newMessage();
-        twist.getLinear().setX(2);
-        publisher.publish(twist);
         sequenceNumber++;
+
+        if (sequenceNumber % 5 == 0) {
+          twist.getAngular().setZ(Math.PI/2);  
+        }
+        else{
+          twist.getLinear().setX(2);
+        }
+        
+        publisher.publish(twist);
+
         Thread.sleep(1000);
       }
     });
