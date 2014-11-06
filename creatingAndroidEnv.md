@@ -15,7 +15,7 @@ Then get the ROS Android repositories in your computer and start your workspace.
  
 During your first ```catkin_make``` lots of **errors** can be raised from Android packages not found. If that is the case, the easiest way to download it is using your Android Studio. 
 
-In order to do that, open your Android Studio and click on ![](https://github.com/guiklink/ME495_Rosjava_Startup/blob/master/SDK_Manager_Logo.png) on the upper right of your screen.
+In order to do that, open your Android Studio and click on  ![](https://github.com/guiklink/ME495_Rosjava_Startup/blob/master/SDK_Manager_Logo.png)  on the upper right of your screen. That will open your the SDK manager to pick the missing packages. 
 
 In addition, in some cases (specially if you are using a 64 bit computer) you might have to add missing C++ libraries. This happens because Android relies in a bunch of 32 bit libraries to execute.If that is the case this [link](http://askubuntu.com/questions/454253/how-to-run-32-bit-app-in-ubuntu-64-bit) shows you how to get the missing packages working in your 64 bit machine.
 
