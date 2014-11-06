@@ -191,7 +191,7 @@ install(DIRECTORY ${CATKIN_DEVEL_PREFIX}/${CATKIN_GLOBAL_MAVEN_DESTINATION}/com/
 
 ##### Compiling with Gradle
 
-When you run catkin_make, cmake runs through your entire workspace and when it gets to your new project, it will pass off the build to gradle.You could alternatively just compile your subproject alone with gradle (much faster than running catkin_make across your entire workspace):
+When you run catkin_make, cMake runs through your entire workspace and when it gets to your new project, it will pass off the build to gradle.You could alternatively just compile your subproject alone with gradle (much faster than running catkin_make across your entire workspace):
 
 ```javascrpit
 source devel/setup.bash
