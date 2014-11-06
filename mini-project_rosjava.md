@@ -199,3 +199,5 @@ cd src/rosjava_catkin_package_a/my_pub_sub_tutorial
 ../gradlew installApp
 ```
 
+Next, let's move the turtle from rosjava....
+
