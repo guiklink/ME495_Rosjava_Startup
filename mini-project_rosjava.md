@@ -2,7 +2,7 @@
 # ME495 Mini-Project: rosjava
 ----------------------------
 
-The goal our project is to install rosjava and modify the simple publisher to control the [turtlesim](http://wiki.ros.org/turtlesim) package. The extensions are a demo of Android application publishing "Hello World" message from Moto G and subscribing on our computer, and reading accelerometer readings from the phone and sending the phone’s orientation to the computer.
+The goal of our project is to install rosjava and modify the simple publisher to control the [turtlesim](http://wiki.ros.org/turtlesim) package. The extensions are a demo of Android application publishing "Hello World" message from Moto G and subscribing on our computer, and reading accelerometer readings from the phone and sending the phone’s orientation to the computer.
 
 ## Installing rosjava
 
