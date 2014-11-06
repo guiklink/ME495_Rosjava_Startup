@@ -61,7 +61,7 @@ dependencies {
 
 #### Creating Rosjava Packages
 
-First, create a wokspace for your project. Then, reate a [rosjava package](http://wiki.ros.org/rosjava_build_tools/Tutorials/hydro/Creating%20Rosjava%20Packages). Follow the directions upto step 5.1.Binary Projects (App) and then continue to the next step [Writing a Simple Publisher and Subscriber (Java)](http://wiki.ros.org/rosjava_build_tools/Tutorials/hydro/WritingPublisherSubscriber%28Java%29). [Note: Do not execute Step 5.2.Library Project. It seems to break catkin_make and compilation error follows anything you do in rosjava after that].
+First, create a wokspace for your project. Then, create a [rosjava package](http://wiki.ros.org/rosjava_build_tools/Tutorials/hydro/Creating%20Rosjava%20Packages). Follow the directions upto step 5.1.Binary Projects (App) and then continue to the next step [Writing a Simple Publisher and Subscriber (Java)](http://wiki.ros.org/rosjava_build_tools/Tutorials/hydro/WritingPublisherSubscriber%28Java%29). [Note: Do not execute Step 5.2.Library Project. It seems to break catkin_make and compilation error follows anything you do in rosjava after that].
 
 ##### Repository Structure
 
