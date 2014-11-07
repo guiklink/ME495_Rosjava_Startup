@@ -261,7 +261,7 @@ Execute a master ```roscore```, pop up the turtlesim ```rosrun turtlesim turtles
 
 ###Remembering...###
 To run your node go into:  
-```> cd src/rosjava_catkin_package_a/my_pub_sub_tutorial/build/install/my_pub_sub_tutorial/bin``` 
+```> cd src/rosjava_catkin_package_a/my_pub_sub_tutorial/build/install/my_pub_sub_tutorial/bin```  
 and use the following command  
 ```> ./my_pub_sub_tutorial com.github.rosjava_catkin_package_a.my_pub_sub_tutorial.Talker```
  
