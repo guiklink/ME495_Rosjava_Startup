@@ -257,4 +257,11 @@ There are two ways to compile your code:
 2. Sometimes doing a ```catkin_make``` can take ages! In this cases you can have **gradle** to compile your local package. In order to do this go to your sub project directory and execute ```../gradlew installApp```. Again, check the Writing a [Simple Publisher and Subscriber](http://wiki.ros.org/rosjava_build_tools/Tutorials/hydro/WritingPublisherSubscriber%28Java%29) tutorial for more information.
 
 ##You're ready to execute it...##
-Execute a master ```roscore```, pop up the turtlesim ```rosrun turtlesim turtlesim_node``` and execute your brand new Java node ```> cd src/rosjava_catkin_package_a/my_pub_sub_tutorial   > cd build/install/my_pub_sub_tutorial/bin   > ./my_pub_sub_tutorial com.github.rosjava_catkin_package_a.my_pub_sub_tutorial.Talker```    See your turtle make squares! 
+Execute a master ```roscore```, pop up the turtlesim ```rosrun turtlesim turtlesim_node``` and execute your brand new Java node to see your turtle draw squares!
+
+###Remembering...###
+To run your node go into:  
+```> cd src/rosjava_catkin_package_a/my_pub_sub_tutorial/build/install/my_pub_sub_tutorial/bin``` 
+and use the following command  
+```> ./my_pub_sub_tutorial com.github.rosjava_catkin_package_a.my_pub_sub_tutorial.Talker```
+ 
