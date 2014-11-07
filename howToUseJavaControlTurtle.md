@@ -10,7 +10,7 @@ In this section we are going to walk though on how to change the **Writing a Sim
 
 ##Adding Dependencies##
 
-First, we need to add the dependencies we going to be using for this task. Remember that the [turtlesim](http://wiki.ros.org/turtlesim) subscribes to 'geometry_msgs.Twist' ROS message, therefore we must make sure that the compiler is aware of this to build our executables.
+First, we need to add the dependencies we are going to be using for this task. Remember that the [turtlesim](http://wiki.ros.org/turtlesim) subscribes to 'geometry_msgs.Twist' ROS message, therefore we must make sure that the compiler is aware of this to build our executables.
  
 Go inside your **rosjava** package (**rosjava_catkin_package_a** if you strickly followed the tutorial above) and open the [CmakeList.txt](https://github.com/guiklink/ME495_Rosjava_Startup/blob/master/CMakeLists.txt) and [package.xml](https://github.com/guiklink/ME495_Rosjava_Startup/blob/master/package.xml).
 
@@ -257,4 +257,11 @@ There are two ways to compile your code:
 2. Sometimes doing a ```catkin_make``` can take ages! In this cases you can have **gradle** to compile your local package. In order to do this go to your sub project directory and execute ```../gradlew installApp```. Again, check the Writing a [Simple Publisher and Subscriber](http://wiki.ros.org/rosjava_build_tools/Tutorials/hydro/WritingPublisherSubscriber%28Java%29) tutorial for more information.
 
 ##You're ready to execute it...##
-Execute a master ```roscore```, pop up the turtlesim ```rosrun turtlesim turtlesim_node``` and execute your brand new Java node to see your turtle make squares! 
+Execute a master ```roscore```, pop up the turtlesim ```rosrun turtlesim turtlesim_node``` and execute your brand new Java node to see your turtle draw squares!
+
+###Remembering...###
+To run your node go into:  
+```> cd src/rosjava_catkin_package_a/my_pub_sub_tutorial/build/install/my_pub_sub_tutorial/bin```  
+and use the following command  
+```> ./my_pub_sub_tutorial com.github.rosjava_catkin_package_a.my_pub_sub_tutorial.Talker```
+ 

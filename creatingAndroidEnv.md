@@ -21,7 +21,7 @@ In addition, in some cases (specially if you are using a 64 bit computer) you mi
 
 ### Linking your Android Studio with your workspace and executing your first demos###
 
-The following [tutorial](http://wiki.ros.org/ApplicationsPlatform/Clients/Android/Tutorials/Getting%20Started) is very strait forward in how to get your first apps executing.
+The following [tutorial](http://wiki.ros.org/ApplicationsPlatform/Clients/Android/Tutorials/Getting%20Started) is very straight forward in how to get your first apps executing.
 
 Unfortunately, the tutorial fail to remark that as all ROS applications you need to add your **dependencies**. For Android applications the dependencies should go inside the **build.gradle** file inside the package.
 
