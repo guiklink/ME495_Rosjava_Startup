@@ -10,7 +10,7 @@ In this section we are going to walk though on how to change the **Writing a Sim
 
 ##Adding Dependencies##
 
-First, we need to add the dependencies we going to be using for this task. Remember that the [turtlesim](http://wiki.ros.org/turtlesim) subscribes to 'geometry_msgs.Twist' ROS message, therefore we must make sure that the compiler is aware of this to build our executables.
+First, we need to add the dependencies we are going to be using for this task. Remember that the [turtlesim](http://wiki.ros.org/turtlesim) subscribes to 'geometry_msgs.Twist' ROS message, therefore we must make sure that the compiler is aware of this to build our executables.
  
 Go inside your **rosjava** package (**rosjava_catkin_package_a** if you strickly followed the tutorial above) and open the [CmakeList.txt](https://github.com/guiklink/ME495_Rosjava_Startup/blob/master/CMakeLists.txt) and [package.xml](https://github.com/guiklink/ME495_Rosjava_Startup/blob/master/package.xml).
 
