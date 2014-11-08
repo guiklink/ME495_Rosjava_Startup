@@ -6,7 +6,7 @@ The goal of our project is to install rosjava and modify the simple publisher to
 
 ## Installing rosjava
 
-Install rosjava following the [source install instructions](http://wiki.ros.org/rosjava/Tutorials/indigo/Installation). One of the problems we came across was catkin_make failing during the installlation. Updating all the packages seems to have solve the problem. There is no explanation why this is happening. On cautionary side, run a 'sudo apt-get update' before rosjava installation. [Damon Kohler](http://www.damonkohler.com/) is the only person seems to know the inner workings of rosjava since it was one of his projects. 
+Install rosjava following the [source install instructions](http://wiki.ros.org/rosjava/Tutorials/indigo/Installation). One of the problems we came across was catkin_make failing during the installlation. Updating all the packages seems to have solve the problem. There is no explanation why this is happening. On cautionary side, run a 'sudo apt-get update' before rosjava installation. [Damon Kohler](http://www.damonkohler.com/) is the main person responsible for the repositories.
 
 ## Writing a Simple Publisher and Subscriber (Java)
 
